@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer'
-import playground from './src/remark/playground'
+import playground from './src/remark/playground.js'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +17,7 @@ const config = {
   url: 'https://infima-inputs.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/infima-inputs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -49,83 +49,53 @@ const config = {
         blog: {
           showReadingTime: true,
         },
+        theme: {
+          customCss: ['../packages/core/dist/css/default/default.css'],
+        },
       }),
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      // image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
-      navbar: {
-        title: 'Infima Inputs',
-        // logo: false,
-        items: [
-          {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/frankieali/infima-inputs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {to: '/', label: 'Home', position: 'left'},
-          {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/frankieali/infima-inputs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Introduction',
-        //         to: 'docs/getting-started/introduction',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/infima',
-        //       },
-        //       {
-        //         label: 'Github',
-        //         href: 'https://github.com/frankieali/infima-inputs',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Frank Ali. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  themeConfig:({
+    // Replace with your project's social card
+    // image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    navbar: {
+      title: 'Infima Inputs',
+      // logo: false,
+      items: [
+        {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/frankieali/infima-inputs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {to: '/', label: 'Home', position: 'left'},
+        {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/frankieali/infima-inputs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Frank Ali. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+
+  }),
 };
 
 export default config;
