@@ -1,3 +1,12 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -5,9 +14,36 @@
 !.yarn/sdks
 !.yarn/versions
 
+# Yarn Integrity file
+.yarn-integrity
+
 # Swap the comments on the following lines if you wish to use zero-installs
 # In that case, don't forget to run `yarn config set enableGlobalCache false`!
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
 #!.yarn/cache
 .pnp.*
+node_modules
+
+# Demo files
+packages/core/demo/css
+packages/core/demo/js
+
+# Dist folders
+packages/core/dist
+packages/core/dist-branch
+
+# dotenv environment variables file
+.env
+
+# Optional eslint cache
+.eslintcache
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# VC Code plugins
+.history
+
+# Misc
+.DS_Store
