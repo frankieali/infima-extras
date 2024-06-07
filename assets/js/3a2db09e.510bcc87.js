@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinfima_inputs_website=self.webpackChunkinfima_inputs_website||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Dev","permalink":"/blog/tags/dev","description":"Dev thoughts","count":1}]}')}}]);
