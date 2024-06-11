@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinfima_inputs_website=self.webpackChunkinfima_inputs_website||[]).push([[133],{3848:e=>{e.exports=JSON.parse('{"tags":[{"label":"Dev","permalink":"/infima-inputs/blog/tags/dev","description":"Dev thoughts","count":1}]}')}}]);

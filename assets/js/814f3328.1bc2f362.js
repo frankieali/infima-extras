@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinfima_extras_website=self.webpackChunkinfima_extras_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/infima-extras/blog/first-blog-post","unlisted":false}]}')}}]);

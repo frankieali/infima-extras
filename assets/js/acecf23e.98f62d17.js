@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinfima_extras_website=self.webpackChunkinfima_extras_website||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/infima-extras/blog","blogTitle":"Blog"}')}}]);

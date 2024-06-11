@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinfima_extras_website=self.webpackChunkinfima_extras_website||[]).push([[69],{7596:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/infima-extras/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
