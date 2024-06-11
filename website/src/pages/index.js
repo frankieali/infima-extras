@@ -29,7 +29,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={`${siteConfig.title}`} description="Form input styling for Infima UI framework">
+    <Layout title={`${siteConfig.title}`} description="Form input components and more for Infima UI framework">
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -54,7 +54,7 @@ export default function Home() {
               <div className="col col--8 col--offset-2">
                 <div className="margin-vert--lg text--center">
                   <h2 className={styles.sectionDarkTitle}>
-                    Infima Inputs is designed as a third-party component library to extent the <a
+                    Infima Extras is designed as a third-party component library to extent the <a
                       className={styles.sectionDarkLink}
                       href="https://infima.dev/"
                       rel="noreferrer noopener"

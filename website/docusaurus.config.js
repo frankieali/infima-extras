@@ -9,20 +9,20 @@ import playground from './src/remark/playground.js'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Infima Inputs',
-  tagline: 'The missing form input components for Infima',
+  title: 'Infima Extras',
+  tagline: 'Input component styles and more for Infima',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://infima-inputs.dev',
+  url: 'https://infima-extras.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/infima-extras/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'frankieali', // Usually your GitHub org/user name.
-  projectName: 'infima-inputs', // Usually your repo name.
+  projectName: 'infima-extras', // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -64,13 +64,13 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Infima Inputs',
+      title: 'Infima Extras',
       // logo: false,
       items: [
         {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/frankieali/infima-inputs',
+          href: 'https://github.com/frankieali/infima-extras',
           label: 'GitHub',
           position: 'right',
         },
@@ -83,7 +83,7 @@ const config = {
         {to: '/docs/getting-started/introduction', label: 'Docs', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/frankieali/infima-inputs',
+          href: 'https://github.com/frankieali/infima-extras',
           label: 'GitHub',
           position: 'right',
         },

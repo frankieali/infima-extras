@@ -1,8 +1,7 @@
 {
-  "name": "infima-inputs-website",
+  "name": "infima-extras-website",
   "version": "0.0.0",
-  "description": "Website for Infima Inputs",
-  "private": true,
+  "description": "Website for Infima Extras",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

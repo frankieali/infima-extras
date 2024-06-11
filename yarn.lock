@@ -8407,9 +8407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"infima-inputs-website@workspace:website":
+"infima-extras-website@workspace:website":
   version: 0.0.0-use.local
-  resolution: "infima-inputs-website@workspace:website"
+  resolution: "infima-extras-website@workspace:website"
   dependencies:
     "@docusaurus/core": "npm:3.4.0"
     "@docusaurus/module-type-aliases": "npm:3.4.0"
@@ -8424,9 +8424,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"infima-inputs@workspace:packages/core":
+"infima-extras@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "infima-inputs@workspace:packages/core"
+  resolution: "infima-extras@workspace:packages/core"
   dependencies:
     cssnano: "npm:^5.1.12"
     del: "npm:^6.1.1"
@@ -8436,6 +8436,7 @@ __metadata:
     gulp-rtlcss: "npm:^2.0.0"
     gulp-webserver: "npm:^0.9.1"
     postcss: "npm:^8.4.31"
+    postcss-hexrgba: "npm:^2.1.0"
     postcss-preset-infima: "npm:^0.2.0-alpha.43"
   languageName: unknown
   linkType: soft
@@ -12263,6 +12264,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.2
   checksum: 10c0/402f830aa6661aa5bd01ae227c189124a5c22ba8e6a95ea0c205148a85732b147c6f5f60c2b67d8a971d0223f5579e891fa9543ea7611470d6fd84729ea0f3bb
+  languageName: node
+  linkType: hard
+
+"postcss-hexrgba@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "postcss-hexrgba@npm:2.1.0"
+  dependencies:
+    postcss-value-parser: "npm:^4.1.0"
+  peerDependencies:
+    postcss: ^8.1.4
+  checksum: 10c0/e82e70a7d87e42f8280471a1c560c91190fd26c53bef7418c45c3c267063ed3ada201a22e0f6d530f08dbcad74bdb344dedada34fca097e7f5c6c1cfe7549e22
   languageName: node
   linkType: hard
 
